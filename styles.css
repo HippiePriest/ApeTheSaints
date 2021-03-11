@@ -1,47 +1,62 @@
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'VT323', sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
     border: none;
 }
 
-h1 {
-    padding: 0px;
-    margin: 0px;
+.quote {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px 10%;
+    color: brown;
 }
 
-h2 {
-}
-
-h3 {
-    font-size: 1em;
-    text-transform: lowercase;
+em {
+    font-weight: 100;
 }
 
 #wrapper {
     width: 100%;
     margin: auto;
 }
+
 #header {
     top: 0;
     width: 100%;
     position: absolute;
     color: white;
-    padding: 20px;
+    padding: 20px 0px;
     background-color: darkslategray;
 }
 
-body {
-    margin-top: 30px;
+#body {
+    width: 100%;
+    padding-bottom: 30px;
 }
 
 #footer {
     color: rgba(255,150,30,1);
-    padding: 10px;
+    padding: 10px 0px;
     background-color: #fadfad;
-    position:absolute;
+    position:fixed;
     bottom:0;
     width:100%;
 }
 
+h2 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 30px;
+}
+
+
+h3 {
+    font-size: 1em;
+    text-transform: lowercase;
+}
+
+p {
+    font-size: larger;
+}
