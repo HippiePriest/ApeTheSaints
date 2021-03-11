@@ -17,6 +17,13 @@ em {
     font-weight: 100;
 }
 
+img.ape {
+    height: auto;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 30px;
+}
+
 #wrapper {
     width: 100%;
     margin: auto;
@@ -63,6 +70,12 @@ p {
 
 @media screen and (max-width: 800px) {
     * {
-    font-size: larger;
+    font-size: 4vw;
+    }
+    .quote {
+        margin-bottom: 30px;
+    }
+    img.ape {
+        margin-top: 50px;
     }
 }
